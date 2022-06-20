@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.limita-largura{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.topo, .rodape{
+	width: 100%;
+	background-color: #008000;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	padding: 16px 0;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+.area{
+	width: calc(100% - 70px);
+	margin: 20px 35px;
+}
+
+.conteudo img, .area p, .conteudo-imagens{
+	width: 100%;
+	margin: 15px 0;
+}
+
+.conteudo-imagens{
+	display: flex;
+}
+
+.galeria img{
+	width: calc((100%/3) - 30px);
+	margin: 0 1.5px;
+}
